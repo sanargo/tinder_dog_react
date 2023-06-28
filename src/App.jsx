@@ -37,8 +37,6 @@ function App() {
     }
   };
 
-  console.log(counter);
-
   return (
     <div className="bg-gray-200 h-screen pt-20 font-poppins md:pt-32">
       <div className="bg-white w-80 mx-auto  md:w-96">
