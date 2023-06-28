@@ -5,7 +5,15 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    fontFamily: {
+      "poppins": ['Poppins', 'ui-sans-serif']
+
+    },
+    extend: {
+      rotate: {
+        '30': '-30deg'
+      }
+    },
   },
   plugins: [],
 }
